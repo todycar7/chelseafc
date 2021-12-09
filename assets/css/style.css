@@ -1,0 +1,410 @@
+@keyframes topAnim{
+    from{
+        top: -200px;
+        opacity: 0%;
+    }
+    to{
+        top: 0px;
+        opacity: 100%;
+    }
+}
+@font-face {
+    font-family: 'Celsi';
+    src: url(../fonts/NotoSansDisplay-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+body{
+    background-image: url('../img/bodywlppr.png');
+    background-repeat: repeat;
+    font-family: 'Celsi';
+}
+
+body header{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    animation: topAnim 0.5s ease-in-out;
+}
+body header .info{
+    background-color: #034694;
+    padding: 5px 0px;
+}
+body header .info, body header .info .social a{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+}
+body header .info .social i{
+    padding-right: 10px;
+    padding-top: 3px;
+}
+body header .info .social a:hover{
+    color: white;
+}
+body header nav{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #6A7AB5;
+    display: flex;
+    justify-content: space-around;
+}
+body header nav .links{
+    width: 25%;
+    position: relative;
+}
+body header nav .links img{
+    position: absolute;
+    top: -30px;
+    left: 45%;
+    width: 150px;
+    padding-top: 30px;
+}
+body header nav .links{
+    width: 75%;
+}
+body header nav .links ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+body header nav .links ul li a{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+body header nav .links ul li a:hover{
+    color: rgb(219, 138, 15);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.blue{
+	color:#6A7AB5;
+}
+.buttons:hover{
+	background-color:#034694;
+	color:white;
+	border-radius:10px;
+	transition:0.5s;
+}
+.stadium{
+    background-image: url('../img/stadium.jpg');
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.intro{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro h1{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.container, .news{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+.container{
+    margin: 30px auto;
+    padding: 30px 0px;
+}
+.container h2{
+    text-align: center;
+}
+.container i{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.ponuda{
+    width: 30%;
+}
+footer{
+    width: 100%;
+    background-color: #034694;
+    padding: 30px 0px;
+}
+.containerFooter{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.footerList{
+    width: 30%;
+    border-left: 1px solid white;
+}
+.footerList ul{
+    list-style-type: disc;
+}
+.footerList ul li{
+    padding: 10px 0px;
+    margin-left: 25px;
+}
+.footerList ul li, .footerList ul li a{
+    color: white;
+}
+.paddingBottom0{
+    padding-bottom: 0px;
+}
+.w-90{
+    width: 90%;
+}
+.displayFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.bo-blue{
+    border: 10px solid #034694;
+}
+.polubilbord{
+    width: 50%;
+    border: 2px solid #034694;
+    position: relative;
+}
+.polubilbord a:hover{
+    filter: saturate(30%);
+    transition: 0.5s;
+}
+.poluslika img{
+    width: 100%;
+    height: 100%;
+}
+.slika img{
+    width: 100%;
+    height: 100%;
+}
+.vest{
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+}
+.shopBanner{
+    width: 100%;
+    background-image: url('../img/shopbanner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.shopMessage{
+    width: 40%;
+    padding: 20px 0px;
+    text-align: center;
+    margin-right: 100px;
+    padding-bottom: 100px;
+}
+.shopMessage h2{
+    padding-top: 100px;
+}
+.shopMessage p{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.shopMessage button{
+    padding: 10px 5px;
+}
+
+.kockica{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #034694;
+    color: white;
+    text-align: center;
+    z-index: 5;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.contactContainer{
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.contactContainer h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.half{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="telefone"],
+form input[type="submit"],
+form input[type="reset"]
+{
+    width: 250%;
+    padding: 5px 5px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background-color: #034694;
+    color: white;
+}
+.label{
+    text-align: center;
+}
+.borderNone{
+    border: none;
+}
+
+/* ========= matches page ========= */
+
+.stadium{
+    background-image: url('../img/stadium.jpg');
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.results{
+    margin: 50px auto;
+    width: 80%;
+}
+.result{
+    margin: 50px auto;
+    width: 60%;
+    border: 5px solid #000000;
+    padding: 20px 0px;
+    background-color: rgba(46, 46, 46, 0.7);
+    color: white;
+    border-radius: 10px;
+}
+.result .scoreTeam, .result .listPLayer{
+    width: 100%;
+    padding: 10px 0px;
+}
+.result .scoreTeam{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+.result .scoreTeam .scorePicture{
+    width: 30%;
+}
+.result .scoreTeam .scorePicture img{
+    width: 100px;
+}
+.result .scoreTeam .score{
+    width: 40%;
+    font-size: 50px;
+    text-align: center;
+}
+table, th, td{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 15%;
+    text-align: center;
+    padding: 10px 5px;
+}
+td:first-child{
+    width: 40%;
+    text-align: center;
+}
+tr:first-child{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+/* ========= shop page ========= */
+
+.shoppingList{
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shoppingList .shoppingItem{
+    width: 30%;
+    margin: 20px 0px;
+	
+    text-align: center;;
+}
+.shoppingList h3{
+    padding-top: 20px;
+}
+.shoppingItem img{
+	border-radius: 10px;
+    text-align: center;
+	border:solid;
+	border-width: thin;
+}
+.shoppingItem button{
+    width: 30%;
+    padding: 10px 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/* ========= author page ========= */
+
+.creatorTitle{
+    padding-top: 200px;
+    text-align: center;
+    text-shadow: 2px 4px rgba(31, 101, 232, 0.5);
+}
+.creatorText{
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px 0px;
+    background-color: rgba(31, 101, 232, 0.5);
+    border-radius: 10px;
+    border: 2px solid #034694;
+    padding: 15px;
+    text-shadow: 0.5px 0.5px black;
+    color: rgb(46, 46, 46);
+}
+.creatorText p{
+	padding-top:40px;
+}
+.creatorText img{
+    width: 150px;
+    border-radius: 20%;
+    float: left;
+    padding: 10px;
+}
+.cleaner{
+    clear: both;
+}
