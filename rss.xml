@@ -3,7 +3,7 @@
 
 <channel>
   <title>Chelsea Football Club</title>
-  <link>https://chelfc.000webhostapp.com/index.html</link>
+  <link>https://todycar7.github.io/chelseafc/index.html</link>
   <description>Cfc</description>
   <item>
     <title>Covid-19</title>
@@ -11,14 +11,9 @@
     <description>RSS feed was successfuly connected</description>
   </item>
   <item>
-    <title> Neradni dan</title>
-    <link>https://chelfc.000webhostapp.com/pages/history.html</link>
-    <description>Club won the Premier League</description>
-  </item>
-  <item>
-    <title>Izmene u zakonu</title>
-    <link>https://chelfc.000webhostapp.com/pages/history.html</link>
-    <description>Club won the Champions League </description>
+    <title>Special offers</title>
+    <link>https://todycar7.github.io/chelseafc/pages/shop.html</link>
+    <description>Special offers</description>
   </item>
 </channel>
 
